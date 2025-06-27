@@ -2,7 +2,7 @@
 
 A comprehensive task management system built with Next.js 15, featuring role-based authentication, time tracking, and advanced reporting capabilities.
 
-## 🚀 Features
+## Features
 
 ### Core Functionality
 - **Role-Based Authentication** - Employee, Manager, and Admin roles with different permissions
@@ -16,7 +16,7 @@ A comprehensive task management system built with Next.js 15, featuring role-bas
 - **Protected Routes** - Secure access based on user roles
 - **Toast Notifications** - User-friendly feedback for all actions
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js 15 (App Router), React 18, TypeScript
 - **Styling**: Tailwind CSS, shadcn/ui components
@@ -25,7 +25,7 @@ A comprehensive task management system built with Next.js 15, featuring role-bas
 - **Icons**: Lucide React
 - **Theme**: next-themes for dark mode support
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this application, make sure you have:
 
@@ -33,7 +33,7 @@ Before running this application, make sure you have:
 - **npm** or **yarn** package manager
 - **Backend API** running (see Backend Setup section)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 

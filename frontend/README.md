@@ -291,14 +291,6 @@ Key responsive features:
 - Touch-friendly controls
 - Optimized typography scaling
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Set environment variables in Vercel dashboard
-4. Deploy automatically on push
 
 ### Docker
 
@@ -417,4 +409,4 @@ For support and questions:
 
 ---
 
-**Built with ❤️ using Next.js 15 and shadcn/ui**
+**Built with ❤️ using Next.js 15 and shadcn/ui by Sam**

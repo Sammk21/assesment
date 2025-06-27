@@ -13,10 +13,6 @@ A comprehensive task management system built with Next.js 15, featuring role-bas
 - **Responsive Design** - Works seamlessly on desktop and mobile devices
 
 ### Advanced Features
-- **Real-time Time Tracking** - Start/stop timers with live updates
-- **Time Reports** - Generate detailed reports with CSV export
-- **Task Estimation** - Set estimated hours and track progress
-- **Dark Mode Support** - Toggle between light and dark themes
 - **Protected Routes** - Secure access based on user roles
 - **Toast Notifications** - User-friendly feedback for all actions
 
@@ -60,7 +56,7 @@ Create a `.env.local` file in the root directory:
 
 \`\`\`env
 # API Configuration
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
+NEXT_PUBLIC_API_URL=http://localhost:3001/api
 
 # Optional: For production deployment
 # NEXT_PUBLIC_API_URL=https://your-backend-api.com/api

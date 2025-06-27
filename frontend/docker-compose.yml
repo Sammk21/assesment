@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=http://backend:3001/api
+    depends_on:
+      - backend
+    networks:
+      - task-management
+
+  backend:
+    # Replace with your backend image
+    image: your-backend-image:latest
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=mongodb://mongo:27017/taskmanagement
+    depends_on:
+      - mongo
+    networks:
+      - task-management
+
+  mongo:
+    image: mongo:6.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - task-management
+
+volumes:
+  mongo_data:
+
+networks:
+  task-management:
+    driver: bridge
